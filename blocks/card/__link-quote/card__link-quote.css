@@ -6,6 +6,6 @@
     line-height: 1;
     letter-spacing: 0.2em;
     color: #AAAAAA;
-    width: 456px;
-    align-self: flex-end;
+    max-width: 456px;
+    align-self: end;
 }

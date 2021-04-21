@@ -1,17 +1,19 @@
-.lead__image {
+.cover__image {
     margin: auto;
-    max-width: 984px;
-    height: auto;
+    object-fit: cover;
+    max-width: 1184px;
+    max-height: 740px;
 }
 
 @media screen and (max-width: 1280px) and (min-width: 768px) { 
-    .lead__image {
+    .cover__image  {
         width: calc(100vw - 48px * 2);
     }
 }
 
 @media screen and (max-width: 768px) { 
-    .lead__image {
-        max-width: 100%;
+    .cover__image  {
+        width: 100%;
+        margin-top: 66px;
     }
 }
