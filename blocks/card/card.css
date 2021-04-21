@@ -1,0 +1,10 @@
+.card {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: min-content min-content;
+    grid-template-rows: min-content min-content;
+    align-items: flex-start;
+    column-gap: 40px;
+    row-gap: 48px;
+}
