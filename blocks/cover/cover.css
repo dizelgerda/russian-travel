@@ -1,6 +1,21 @@
 .cover {
+    box-sizing: border-box;
     position: relative;
     margin: auto;
-    
-    /* background-image: url(../../images/cover-trains.jpg); */
+    background-image: url(../../images/cover-trains.jpg);
+    background-position: center;
+    background-size: cover;
+    max-width: 1184px;
+}
+
+@media (min-width: 1024px) {
+    .cover {
+        height: 720px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .cover {
+        padding-bottom: 62.5%;
+    }
 }

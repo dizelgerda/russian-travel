@@ -9,7 +9,7 @@
     align-items: flex-start;
 }
 
-@media screen and (max-width: 768px) { 
+@media (max-width: 768px) { 
     .footer {
         flex-direction: column;
     }

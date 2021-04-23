@@ -1,21 +1,21 @@
 .places {
-    padding-top: 92px;
+    padding: 92px 0 92px;
     margin: auto;
     width: min-content;
     display: grid;
     row-gap: 80px;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: repeat(5, max-content);
     justify-content: center;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) { 
+@media (max-width: 1024px) { 
     .places {
         row-gap: 72px;
     }
 }
 
-@media screen and (max-width: 768px) { 
+@media (max-width: 768px) { 
     .places {
         row-gap: 50px;
     }
