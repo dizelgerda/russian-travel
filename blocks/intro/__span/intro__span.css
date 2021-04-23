@@ -1,8 +1,7 @@
-.intro__fact {
-    max-width: 690px;
+.intro__span {
     font-family: Inter;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 600;
     font-size: 12px;
     line-height: 18px;
     margin: 0;

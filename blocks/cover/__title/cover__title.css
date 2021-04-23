@@ -1,4 +1,6 @@
 .cover__title {
+    position: relative;
+    z-index: 1;
     margin: 0 0 32px;
     max-width: 560px;
     font-family: Inter;
@@ -7,6 +9,8 @@
     font-size: 72px;
     line-height: 1.06;
     text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 @media (max-width: 768px) { 
