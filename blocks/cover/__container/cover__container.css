@@ -9,23 +9,23 @@
     text-decoration: none;
 
     max-width: 1184px;
-    height: 740px;
+    min-height: 740px;
 }
 
 @media (max-width: 1024px) {
     .cover__container {
-        height: 640px;
+        min-height: 640px;
     }
 }
 
 @media (max-width: 768px) {
     .cover__container {
-        height: 480px;
+        min-height: 480px;
     }
 }
 
 @media (max-width: 480px) {
     .cover__container {
-        height: 200px;
+        min-height: 200px;
     }
 }

@@ -1,12 +1,11 @@
 .footer__link {
-    font-family: Inter;
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     text-decoration: none;
     font-size: 16px;
     line-height: 1.12;
     color: #FFFFFF;
-    margin-right: 18px;
 }
 
 .footer__link:last-child {
@@ -18,17 +17,9 @@
     transition: opacity linear 0.3s;
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 320px) { 
     .footer__link {
         font-size: 24px;
         line-height: 1;
-        display: block;
-        margin-right: 0;
-        margin-bottom: 32px;
-        margin-left: 16px;
-    }
-
-    .footer__link:last-child {
-        margin-bottom: 0;
     }
 }

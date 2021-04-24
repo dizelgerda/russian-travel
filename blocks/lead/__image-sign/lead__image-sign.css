@@ -1,5 +1,7 @@
 .lead__image-sign {
-    font-family: Inter;
+    align-self: flex-start;
+
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 10px;

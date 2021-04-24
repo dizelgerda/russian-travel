@@ -1,5 +1,7 @@
 .root {
-    font-family: 'Inter', Arial, sans-serif;
+    min-width: 320px;
+
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

@@ -6,12 +6,11 @@
 
 @media (max-width: 1024px) { 
     .intro {
-        padding-top: 92px;
         width: calc(100vw - 48px * 2);
     }
 }
 
-@media (max-width: 1024px) { 
+@media (max-width: 768px) { 
     .intro {
         padding-top: 88px;
         width: calc(100vw - 24px * 2);
