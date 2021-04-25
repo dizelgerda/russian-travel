@@ -10,7 +10,7 @@
     justify-content: center;
 }
 
-@media (max-width: 1024px) { 
+@media (max-width: 1000px) { 
     .places {
         width: calc(100vw - 24px * 2);
         row-gap: 72px;
@@ -20,5 +20,11 @@
 @media (max-width: 768px) { 
     .places {
         row-gap: 50px;
+    }
+}
+
+@media (max-width: 320px) { 
+    .places {
+        width: 100%;
     }
 }

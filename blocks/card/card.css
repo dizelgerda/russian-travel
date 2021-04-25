@@ -19,7 +19,7 @@
     }
 }
 
-@media (max-width: 1024px) { 
+@media (max-width: 1000px) { 
     .card {
         grid-template-columns: 340px minmax(min-content, max-content);
         row-gap: 48px;
